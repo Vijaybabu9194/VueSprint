@@ -56,4 +56,8 @@ onMounted(async () => {
       </div>
     </li>
   </ul>
+  <button @click="refetch">Reload</button>
+  <router-link to="/about">about</router-link>
+  <router-link to="/custom">custom</router-link>
+
 </template>

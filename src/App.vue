@@ -1,14 +1,13 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import { useQuery } from '@/composables/fetch.ts'
-import axios from 'axios'
 
 
 </script>
 
 <template>
+  <h1>Header</h1>
   <RouterView />
+  <h1>Footer</h1>
 </template>
 
 <style scoped>
